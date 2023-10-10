@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnAddRoute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add a Route" />
+
+    <Button
+        android:id="@+id/btnAddSubscription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add a Subscription" />
+
+    <Button
+        android:id="@+id/btnRemoveSubscription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remove a Subscription" />
+
+    <Button
+        android:id="@+id/btnAddDeliveryPerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add a Delivery Person"
+        android:enabled="false" /> <!-- Disabled by default, enable it programmatically when needed -->
+
+    <Button
+        android:id="@+id/btnLister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lister" />
+
+    <Button
+        android:id="@+id/btnQuit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leave" />
+
+</LinearLayout>
